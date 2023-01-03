@@ -1,0 +1,13 @@
+graph grid {
+layout=dot
+label="MATRIZ ORTOGONAL"
+labelloc="t"
+node[shape=circle]
+F5
+rank=same {C3}
+edge [weight=1000 style=dashed color=dimgrey]
+C3 -- 6
+rank=same {F5 -- 6}
+
+;
+ } 
